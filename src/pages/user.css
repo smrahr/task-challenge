@@ -1,0 +1,22 @@
+.user-wrapper {
+  width: 90%;
+  min-height: 300px;
+  padding: 20px;
+  text-align: center;
+}
+
+.user-wrapper form {
+  display: flex;
+  gap: 15px;
+  margin: 0 auto 10px auto;
+}
+
+input,
+button {
+  height: 40px;
+  font-size: 16px;
+  padding: 0 10px;
+}
+ul {
+  z-index: 10;
+}

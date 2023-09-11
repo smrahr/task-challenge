@@ -1,0 +1,54 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.form-wrapper {
+  width: 90%;
+  padding: 20px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-wrapper form {
+  display: flex;
+  gap: 15px;
+  /* margin: 0 auto 10px auto; */
+}
+
+.form-wrapper form input,
+.form-wrapper button, .skills-box {
+  width: 25%;
+  height: 100%;
+  height: 40px;
+  font-size: 16px;
+  padding: 10;
+}
+
+.skills-box {
+  position: relative;
+}
+
+.skills-box input{
+  width: 92% !important;
+}
+
+.skills-option {
+  width: 100%;
+  list-style: none;
+  background-color: rgb(194, 193, 193);
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 50px;
+  left: 0px;
+}
+
+.skills-option * {
+  width: 100%;
+  list-style: none;
+  padding: 10px;
+  text-align: left;
+  cursor: pointer;
+}

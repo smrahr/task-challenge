@@ -1,0 +1,8 @@
+.charts {
+  display: flex;
+  flex-direction: column;
+}
+
+.charts * {
+  margin-bottom: 50px;
+}
